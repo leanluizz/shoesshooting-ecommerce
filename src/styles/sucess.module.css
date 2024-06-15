@@ -1,0 +1,6 @@
+@media (max-width:250px) {
+    #title, #pg{ font-size: 10vw; }
+    #link{ display: none; }
+}
+#title{ white-space: break-spaces; }
+#pg{ white-space: break-spaces; }

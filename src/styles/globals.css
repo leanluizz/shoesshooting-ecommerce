@@ -1,0 +1,81 @@
+:root{
+    --light-mode-: #FFF
+}
+@media (max-width:750px) {
+    #shoeWhite{ width: 40vw; height: 40vh; }
+}
+@media (max-width:500px){
+    .title-phone{ display: none; }
+    #title{ margin-top: 20%; }
+}
+@media (max-width:800px) {
+    #shoeWhite{ display: none; }
+    #BTN { display: none; }
+    #carousel-img{ height: 50vh; }
+}
+@media (min-width:800px) {
+    .toggle{ display: none; }
+    .flex-title{ display: flex; align-items: center; }
+}
+svg{ margin-top: 4px; }
+details > summary  {
+    list-style: none;
+}
+body{ background-image: url('../img/background.jpg');}
+h2{ white-space: pre; padding-left: 5px;}
+ul { list-style: none; }
+#BTN{ height: 30%;}
+#title { white-space:nowrap; position: relative; left: 15%; }
+#content-background-white 
+{ 
+height: 5rem; 
+align-items: center;
+justify-content: space-evenly;
+}
+.shoedropdown{ margin-top: 100%; }
+nav{ width: 0%; }
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+.center{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+.input-Hover:hover{
+    transition: 0.2s ease-in-out;
+    transform: translateY(-3px);
+}
+input{ 
+    outline: 0;
+}
+.width{
+    width: 932px;
+}
+.hoverIMG{
+    cursor: pointer;
+}
+img, .moldureShoes{
+    cursor: pointer;
+}
+.moldureShoes{
+    background-color: white;
+}
+.moldureShoes:hover{
+    background-color: rgb(233, 233, 233);
+}
+.bi-star{
+    cursor: pointer;
+}
+svg{
+    cursor: pointer;
+}
+::before {
+    display: none !important; 
+  }
+  div.dropdown-menu{
+    padding: 0px;
+  }
+  .helpLink{
+    cursor: pointer;
+  }

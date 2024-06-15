@@ -1,0 +1,16 @@
+@keyframes slideToRight {
+    0%{ left: -100%; }
+    50% { left: 0%; }
+    60% { left: 0%; }
+    70% { left: 0%; }
+    80% { left: 0%; }
+    100%{ left: 0%; }
+}
+@keyframes slideToLeft {
+    0%{ left: 0%; }
+    100% { left: -100%; }
+}
+
+#x:hover{
+    fill: rgb(97, 7, 7);
+}
